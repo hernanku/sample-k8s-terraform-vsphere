@@ -6,7 +6,7 @@ module "sample1-k8s-cp1" {
   vsphere_datacenter = "dc-east"
   vsphere_cluster    = "lab-cluster"
   vm_datastore = "vmData"
-  vm_name            = "sample1-k8s-cp1"
+  vm_name            = "tools-k8s-cp1"
   vm_disk_size = 50
   vm_dns_search_domain = "labz.io"
   vm_domain = "labz.io"
@@ -29,7 +29,7 @@ module "sample1-k8s-cp2" {
   vsphere_datacenter = "dc-east"
   vsphere_cluster    = "lab-cluster"
   vm_datastore = "vmData"
-  vm_name            = "sample1-k8s-cp2"
+  vm_name            = "tools-k8s-cp2"
   vm_disk_size = 50
   vm_dns_search_domain = "labz.io"
   vm_domain = "labz.io"
